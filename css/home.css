@@ -1,0 +1,216 @@
+@import url(font-awesome.min.css);
+
+@font-face {
+    font-family: "BTitrBd";
+    src: url("../Font/3378-BTitrBd--abasvp.ir--/BTitrBd.ttf");
+    /* font-family: "Yekan Boom";
+    src: url("../Font/3475-Yekan-Boom--abasvp.ir--/Yekan Boom.ttf"); */
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    direction: rtl;
+    background-color: #efecec;
+}
+
+/* ------------------ */
+/* Navbar */
+
+#nav {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(110, 110, 110);
+}
+
+#a-nav {
+    color: white;
+    font-family: "BTitrBd";
+    font-size: 20px;
+}
+
+#a-nav:hover {
+    color: black;
+}
+
+/* ------------------ */
+/* Header */
+
+.banner_header {
+    background-image: url("../img/headerBackgroundPicture.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.right-content {
+    padding-top: 400px;
+}
+
+.right-content h1 {
+    line-height: 110px;
+    font-family: "BTitrBd";
+    font-size: 60px;
+}
+
+.left-content {
+    margin-top: -400px;
+}
+
+#btn-header {
+    font-family: "BTitrBd";
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+    color: rgb(50, 49, 49);
+    margin-top: -40px;
+}
+
+.i-header {
+    color: white;
+}
+
+.i-header:hover {
+    color: #FFC400;
+}
+
+/* ------------------ */
+/* About */
+
+#about {
+    margin: 80px;
+}
+
+#about h2 {
+    color: #284258;
+    font-family: "BTitrBd";
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#about h2::before {
+    content: '';
+    position: absolute;
+    bottom: -28px;
+    width: 10%;
+    height: 8px;
+    background-color: #FFC400;
+}
+
+#about_content {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    display: flex;
+    padding: 55px;
+}
+
+#left_about p {
+    text-align: justify;
+    color: #626262;
+}
+
+/* ------------------ */
+/* Skills */
+#skills {
+    margin: 80px;
+}
+
+#skills h2 {
+    color: #284258;
+    font-size: 40px;
+    font-family: "BTitrBd";
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#skills h2::before {
+    content: '';
+    position: absolute;
+    bottom: -28px;
+    width: 12%;
+    height: 8px;
+    background-color: #FFC400;
+}
+
+#progress-skills {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 90px;
+    justify-content: center;
+}
+
+.progress {
+    background-color: rgb(235, 235, 235);
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: #FFC400;
+    color: black;
+}
+
+/* ------------------ */
+/* Banner */
+
+#banner{
+    margin-top: 80px;
+    background-color: #efecec;
+    border: none;
+}
+
+#banner img {
+    width: 100%;
+    height: 250px;
+}
+
+#card_content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#card_content h2{
+    font-size: 40px;
+    line-height: 100px;
+}
+
+#card_content p {
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+/* ------------------ */
+/* footer */
+footer {
+    background-color: rgb(22, 22, 107);
+    margin-top: 80px;
+    width: 100%;
+    height: 600px;
+}
+
+#footer_content {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#form-group {
+    width: 500px;
+    margin-right: 700px;
+    margin-top: 40px;
+}
+
+.text{
+    margin-bottom: 10px;
+}
+
+#btn{
+    /* background-color: #fff; */
+    border: 2px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+}
